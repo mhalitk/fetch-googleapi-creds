@@ -45,12 +45,7 @@ python get_credentials.py
 ```
 
 Follow the instructions printed to the console:
-1. Open the provided URL in your web browser.
+1. The script will opens a url with default browser.
 2. Log in with your Google account and authorize the application.
-3. Copy the authorization code displayed and paste it back into the console when prompted.
 
 The script will save the credentials to `credentials.json` in the same directory. This file can then be used for authenticating requests to the Google APIs.
-
-## Note
-
-- The authentication flow requires manual intervention to copy the authorization code. Ensure that the script is run in an environment where you can access the console and the web browser.
